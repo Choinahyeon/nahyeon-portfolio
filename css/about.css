@@ -1,0 +1,275 @@
+
+
+/* project nav color */
+#header .header_inner nav a.about {
+    color: #2159f6;
+}
+
+
+
+
+#container {
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+
+/* row1 */
+.row1 {
+    width: 60%;
+    padding: 80px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.row1 img {
+    width: 15%;
+    margin: 0 auto;
+}
+.row1 span {
+    display: block;
+    padding: 30px;
+    text-transform: capitalize;
+}
+.row1 h1 {
+    display: inline-block;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: .9;
+    margin-bottom: 15px;
+}
+.row1 p {
+    line-height: 1.5;
+}
+.row1 .link {
+    margin-top: 30px;
+}
+.row1 .link a {
+    border: 1px solid white;
+    border-radius: 99px;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 5px;
+}
+.row1 .link a img {
+    width: 20px;
+}
+
+
+
+
+
+
+/* row2 */
+.row2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.row2 .card {
+    position: relative;
+    background-color: #3c3c3c;
+    border-radius: 18px;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 150px;
+    width: 100%;
+    overflow: hidden;
+    transition: .4s ease-in-out;
+}
+.row2 .card .top {}
+.row2 .card .top span {
+    text-transform: uppercase;
+}
+.row2 .card .under {
+    position: relative;
+    transform: translateY(75%);
+    transition: .4s ease-in-out;
+}
+.row2 .card .under .title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row2 .card .under .title h1 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.row2 .card .under .title p {}
+.row2 .card .under .title .arrow {
+    border: 1px solid white;
+    border-radius: 99px;
+    padding: 10px;
+    transition: ease-out;
+}
+.row2 .card .under .title .arrow i {}
+.row2 .card .under .op::before {
+    display: inline-block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 20px 0;
+}
+.row2 .card .under .op {
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+.row2 .card .under .op span {
+    display: block;
+    margin-bottom: 20px;
+}
+.row2 .card .under .op p {
+    line-height: 1.3;
+}
+
+.row2 .card:hover .under {
+    transform: translateX(0);
+}
+.row2 .card:hover .op {
+    opacity: 1;
+}
+.row2 .card:hover .arrow {
+    display: none;
+}
+.row2 .card:hover {
+    background-color: #2159f6;
+}
+
+
+
+
+
+/* row3 */
+.row3 {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+.row3 .cont {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px 0;
+}
+.row3 .cont.development {
+    border-bottom: 2px solid #3c3c3c;
+}
+.row3 .cont .title {
+    flex: 1;
+}
+.row3 .cont .title h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.row3 .cont .skills {
+    flex: 1;
+}
+.row3 .cont .skills .tags {
+    margin-bottom: 50px;
+}
+.row3 .cont .skills .tags span {
+    display: inline-block;
+    background-color: #fff;
+    color: #3c3c3c;
+    padding: 5px 15px;
+    border-radius: 99px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.row3 .cont .skills .text {}
+.row3 .cont .skills .text p {
+    line-height: 1.5;
+}
+.row3 .cont .sub {
+    flex: 1;
+}
+.row3 .cont .sub span {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px 15px;
+    border-radius: 99px;
+    margin-right: 5px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.row4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+.row4 .left {
+    width: 50%;
+}
+.row4 .left h1 {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+.row4 ul {
+    width: 50%;
+}
+.row4 ul li {
+    border-bottom: 1px solid #fff;
+}
+.row4 ul li button {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 18px;
+    transition: .2s ease-in;
+}
+.row4 ul li button:hover {
+    color: #2159f6;
+}
+.row4 ul li button i.down {
+    position: absolute;
+    right: 0;
+}
+.row4 ul li button i.up {
+    display: none;
+}
+.row4 ul li .text {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+.row4 ul li .text.active {
+    max-height: 200px;
+    opacity: 1;
+    transition: max-height 0.3s ease-in, opacity 0.3s ease-in;
+}
+.row4 ul li .text p {
+    line-height: 1.5;
+    margin: 10px 0 20px;
+    font-weight: 200;
+}

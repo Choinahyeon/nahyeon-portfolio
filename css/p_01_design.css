@@ -1,0 +1,234 @@
+
+
+/* project nav color */
+#header .header_inner nav a.project {
+    color: var(--color-point);
+}
+
+
+
+
+#container {
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+
+
+
+/* row1 */
+.row1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row1 .leftTxt {
+    width: 50%;
+}
+.row1 .leftTxt .title h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.row1 .leftTxt .tags {}
+.row1 .leftTxt .tags p {
+    display: inline-block;
+    border: 1px solid var(--color-white);
+    border-radius: 99px;
+    padding: 7px 14px;
+    margin-right: 10px;
+}
+.row1 .rightTxt {
+    width: 40%;
+}
+.row1 .rightTxt span {
+    display: block;
+    margin-bottom: 20px;
+}
+.row1 .rightTxt p {
+    line-height: 1.5;
+    color: var(--color-gray3);
+}
+
+
+
+/* row2 */
+.row2 img {
+    border-radius: 18px;
+}
+
+
+
+
+
+/* row3 */
+.row3 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+}
+.row3 .leftBt {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.row3 .leftBt .project {
+    cursor: pointer;
+    background-color: var(--color-gray1);
+    padding: 30px 40px;
+    border-radius: 18px;
+    transition: .2s ease-in-out all;
+}
+.row3 .leftBt .project .inner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row3 .leftBt .project .inner .text {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+.row3 .leftBt .project .inner .text .top p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.row3 .leftBt .project .inner .text .top h2 {
+    font-size: 23px;
+}
+.row3 .leftBt .project .inner .text .top h2 span {
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.row3 .leftBt .project .inner .text .buttom p {
+    line-height: 1.3;
+}
+.row3 .leftBt .project .inner .arrow {
+    background-color: var(--color-gray3);
+    border-radius: 99px;
+    padding: 15px;
+}
+.row3 .leftBt .project .inner .arrow i {
+    font-size: 18px;
+    color: var(--color-gray1);
+}
+.row3 .leftBt .project.active {
+    background-color: var(--color-gray2);
+}
+.row3 .rightImg {
+    width: 50%;
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.row3 .rightImg div {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    right: -1000px;
+    opacity: 0;
+    transition: opacity .2s ease-in-out,
+                transform .2s ease-in-out ;
+}
+.row3 .rightImg div img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.row3 .rightImg div.active {
+    right: 0;
+    opacity: 1;
+}
+
+
+
+
+
+/* row4 */
+.row4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.row4 .content {
+    background-color: var(--color-gray1);
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+}
+.row4 .content img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.row4 .content img.front {
+    position: relative;
+    z-index: 2;
+    transition: opacity 0.2s ease-out;
+}
+.row4 .content img.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.2s ease-out;
+}
+.row4 .content .text {
+    width: 100%;
+}
+.row4 .content .text i {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: opacity .2s ease-out;
+}
+.row4 .content .text h1 {
+    position: absolute;
+    width: 100%;
+    bottom: -30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0;
+    z-index: 3;
+    transition: all 0.2s ease-out;
+}
+.row4 .normal .text h1 {
+    color: var(--color-gray1);
+} 
+.row4 .christmas .text h1 {
+    color: var(--color-gray1);
+}
+.row4 .content:hover {
+    border: 1px transparent;
+}
+.row4 .content:hover .back {
+    opacity: 1;
+}
+.row4 .content:hover .text h1 {
+    bottom: 10px;
+    opacity: 1;
+}
+
+.row4 .christmas:hover img.front {
+    opacity: 0;
+}

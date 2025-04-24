@@ -1,0 +1,54 @@
+{
+    "items": [ 
+        {
+            "link":"p_06_portfolio.html",
+            "frontImg":"img/test2.jpg",
+            "backImg":"img/test2-1.jpg",
+            "alt":"commingsoon2",
+            "category":"development",
+            "type":"development",
+            "title":"comming soon2",
+            "subTxt":"서브텍스트 블라블라"
+        },
+        {
+            "link":"#none",
+            "frontImg":"img/test2.jpg",
+            "backImg":"img/test2-1.jpg",
+            "alt":"'commingsoon'",
+            "category":"development",
+            "type":"development",
+            "title":"comming soon",
+            "subTxt":"서브텍스트 블라블라"
+        },
+        {
+            "link":"#none",
+            "frontImg":"img/list03.jpg",
+            "backImg":"img/list03-1.jpg",
+            "alt":"'오설록'",
+            "category":"development",
+            "type":"development",
+            "title":"OSULLOC",
+            "subTxt":" Website Redesign"
+        },
+        {
+            "link":"p_02_daon.html",
+            "frontImg":"img/list02.jpg",
+            "backImg":"img/list02-1.jpg",
+            "alt":"'다온펜션'",
+            "category":"development",
+            "type":"development",
+            "title":"Daon Pension",
+            "subTxt":" Website Rednewal"
+        },
+        {
+            "link":"p_01_design.html",
+            "frontImg":"img/list01.jpg",
+            "backImg":"img/list01-1.jpg",
+            "alt":"'웹디자인'",
+            "category":"design",
+            "type":"design",
+            "title":"Design",
+            "subTxt":"Web and Product Design"
+        }
+    ]
+}

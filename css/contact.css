@@ -1,0 +1,73 @@
+/* nav color start */
+#header .header_inner nav a.contact {
+    border: 1px solid var(--color-point);
+    background-color: var(--color-point);
+}
+/* nav color end */
+
+
+
+
+/* container */
+#container {
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
+
+
+.inner {
+    height: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.inner .left {
+    width: 40%;
+}
+.inner .left img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.inner .right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.inner .right .title {}
+.inner .right .title h1 {
+    text-transform: uppercase;
+    font-size: 3.8rem;
+}
+.inner .right .bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.inner .right .bottom .text {
+    display: flex;
+    gap: 80px;
+}
+.inner .right .bottom .text .me {}
+.inner .right .bottom .text .me h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.inner .right .bottom .text .me p {
+    font-size: 18px;
+}
+
+.inner .right .bottom .icon {}
+.inner .right .bottom .icon a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.inner .right .bottom .icon a img {
+    width: 25px;
+}

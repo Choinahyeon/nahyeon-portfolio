@@ -1,0 +1,224 @@
+
+
+/* project nav color */
+#header .header_inner nav a.project {
+    color: var(--color-point);
+}
+
+
+
+
+#container {
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+
+
+/* row1 */
+.row1 {
+    position: relative;
+}
+.row1 img {
+    width: 100%;
+    border-radius: 18px;
+}
+.row1 .inner {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.row1 .inner .leftTxt {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    width: 60%;
+}
+.row1 .inner .leftTxt h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.row1 .inner .leftTxt p {
+    line-height: 1.5;
+}
+.row1 .inner .rightLink {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+.row1 .inner .rightLink .linkBt {
+    border-radius: 99px;
+    margin-left: 20px;
+    backdrop-filter: blur(7px);
+    background-color: rgba(66, 66, 69, 0.4);
+    transition: .2s ease-in-out;
+}
+.row1 .inner .rightLink .linkBt a {
+    display: block;
+    padding: 15px 25px;
+}
+.row1 .inner .rightLink .linkBt a i {
+    font-size: 13px;
+}
+.row1 .inner .rightLink .linkBt.org {
+    border: 1px solid var(--color-gray3);
+}
+.row1 .inner .rightLink .linkBt.org:hover {
+    background-color: var(--color-white);
+}
+.row1 .inner .rightLink .linkBt.org:hover a,
+.row1 .inner .rightLink .linkBt.org:hover a i {
+    color: var(--color-gray1);
+}
+.row1 .inner .rightLink .linkBt.new {
+    border: 1px solid var(--color-point);
+}
+.row1 .inner .rightLink .linkBt.new:hover {
+    background-color: var(--color-point);
+}
+
+
+
+
+
+/* row2 */
+.row2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.row2 .box {
+    flex: 1;
+    border-radius: 18px;
+    background-color: var(--color-gray1);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+}
+.row2 .box .top {
+    align-items: center;
+}
+.row2 .box .top h3 {
+    display: inline-block;
+    text-transform: capitalize;
+    color: var(--color-gray3);
+}
+.row2 .box .top i {
+    vertical-align: middle;
+    color: var(--color-gray3);
+}
+.row2 .box .text h2 {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.row2 .box .text h2 > span {
+    margin-left: 5px;
+    font-size: 1.1rem;
+    color: var(--color-gray2);
+}
+.row2 .box .text p {
+    line-height: 1.5;
+}
+
+
+
+
+/* 
+.row2 .box .text h3 {
+    
+    
+
+}
+.row2 .box .text p {
+
+    ;
+}
+
+
+.row2 .box .text i {
+    background-color: aqua;
+    vertical-align: baseline;
+}
+.row2 .box .text h3 {
+    display: inline-block;
+    background-color: blue;
+    
+    
+    
+    margin-left: 5px;
+}
+.row2 .box .text {}
+.row2 .box .text p {}
+ */
+
+
+
+
+
+/* row3 */
+.card {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card .textBox {
+    width: 50%;
+    background-color: #383838;
+    border-radius: 18px;
+    padding: 40px;
+}
+.card .textBox .inner {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+}
+.card .textBox .inner h1 {
+    font-size: 55px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.card .textBox .inner .text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card .textBox .inner .text p {
+    line-height: 1.5;
+    color: #7d7d7d;
+}
+.card .imgBox {
+    width: 50%;
+}
+.card .imgBox img {
+    width: 100%;
+    border-radius: 18px;
+}
+ 
+
+
+
+

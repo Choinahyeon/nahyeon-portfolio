@@ -1,0 +1,52 @@
+
+/* header li color */
+#header .container .nav_menu li.project a {
+    color: var(--color-point);
+}
+
+
+
+
+/* row1 */
+.row1 {
+    width: 100%;
+}
+.row1 img {
+    width: 100%;
+}
+
+
+/* row2 */
+.row2 {}
+
+
+
+
+#header {
+
+}
+#header .container {
+    
+}
+#header .container .logo {}
+#header .container .logo a {
+}
+#header .container .logo a > img {
+
+}
+
+#header .container .nav_menu {}
+#header .container .nav_menu li {
+
+}
+#header .container .nav_menu li a {
+
+
+
+}
+#header .container .nav_menu 
+
+
+#wrap {
+    background-color: white;
+}

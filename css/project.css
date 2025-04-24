@@ -1,0 +1,656 @@
+
+
+/* project nav color */
+#header .header_inner nav a.project {
+    color: #2159f6;
+}
+
+
+
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 0 30px;
+}
+
+/* row1 */
+.row1 {
+    border: 2px solid #e9e9e9;
+    border-radius: 18px;
+    height: 280px;
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: end;
+}
+.row1 h1 {
+    display: block;
+    color: #e9e9e9;
+    font-family: "Syne", sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+
+
+/* row2 */
+.row2 {
+    margin: 20px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row2 .buttons button {
+    border: 1px solid #e9e9e9;
+    border-radius: 99px;
+    padding: 10px 25px;
+    margin-right: 8px;
+    background-color:transparent;
+    color: #e9e9e9;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.row2 .buttons button:hover {
+    border: 1px solid #2159f6;
+}
+.row2 .buttons button.active {
+    border: 1px solid #2159f6;
+    background-color: #2159f6;;
+}
+
+
+
+
+
+/* row3 */
+.row3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.row3 .item {
+    width: 32.8%;
+    border-radius: 18px;
+    overflow: hidden;
+}
+.row3 .item a {
+    width: 100%;
+    position: relative;
+}
+.row3 .item a img {
+    width: 100%;
+}
+.row3 .item a .img .front {
+    width: 100%;
+}
+.row3 .item a .img .back {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.row3 .item a:hover .back {
+    opacity: 1;
+}
+
+.row3 .item a .inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row3 .item a .inner .top {}
+.row3 .item a .inner .top span {
+    text-transform: capitalize;
+}
+
+
+.row3 .item a .inner .bt {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.row3 .item a .inner .bt .title h1 {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+.row3 .item a .inner .bt .title p {
+    margin-top: 5px;
+    color: rgba(233, 233, 233, 0.456);
+}
+.row3 .item a .inner .bt .icon {
+    position: absolute;
+    opacity: 0;
+    right: -30px;
+    transition: .3s ease-in-out;
+    background-color: #e9e9e9;
+    border-radius: 99px;
+    padding: 10px;
+}
+.row3 .item a .inner .bt .icon img {}
+.row3 .item a:hover .inner .bt .icon {
+    opacity: 1;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.row3 .line {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.row3 .line .big {
+    width: 50%;
+}
+.row3 .line .sml {
+    width: 25%;
+}
+
+.row3 .line .item {
+    height: 350px;
+    border: 1px solid #e9e9e9;
+    border-radius: 18px;
+}
+.row3 .line .item a {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.row3 .line .item a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.row3 .line .item a .inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row3 .line .item a .inner .top {
+
+}
+.row3 .line .item a .inner .top span {
+    color: red;
+}
+.row3 .line .item a .inner .top .icon {
+
+}
+.row3 .line .item a .inner .top .icon img {}
+.row3 .line .item a .inner .title {}
+.row3 .line .item a .inner .title h1 {}
+
+ */
+
+
+/* 
+.row3 .line1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.row3 .line1 a {
+    width: 100%;
+    height: auto;
+    border-radius: 18px;
+    position: relative;
+}
+.row3 .line1 a img {
+    border-radius: 18px;
+    width: 100%;
+}
+.row3 .line1 a .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.row3 .line1 a .top h1 {}
+.row3 .line1 a .top span {} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .row1 {
+    border: 2px solid #e9e9e9;
+    border-radius: 18px;
+    height: 280px;
+    padding: 30px 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: end;
+}
+.row1 .left {}
+.row1 .left h1 {
+    display: block;
+    color: #e9e9e9;
+    font-family: "Syne", sans-serif;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+}
+.row1 .left .buttons {}
+.row1 .left .buttons button {
+    border: 1px solid #e9e9e9;
+    border-radius: 99px;
+    padding: 10px 25px;
+    margin-right: 8px;
+    background-color:transparent;
+    color: #e9e9e9;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.row1 .left .buttons button:hover {
+    border: 1px solid #2159f6;
+}
+.row1 .left .buttons button.active {
+    border: 1px solid #2159f6;
+    background-color: #2159f6;;
+}
+.row1 .sideTxt {
+    margin: 0px 0px 26px 0px;
+    width: 30%;
+}
+.row1 .sideTxt p {
+    color: rgba(255, 255, 255, .5);
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.3;
+} */
+
+
+
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.row2 .items {
+
+}
+.row2 .items .item {
+    width: 32.8%;
+}
+
+
+
+.row2 .items .item a {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.row2 .items .item a img {
+    width: 100%;
+    border-radius: 18px;
+}
+.row2 .items .item a .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row2 .items .item a .inner span {}
+.row2 .items .item a .inner h1 {}
+.row2 .items .item a .inner .arrow {
+    position: absolute;
+    opacity: 0;
+    right: -40px;
+    transition: .3s ease-in-out;
+}
+.row2 .items .item a .inner .arrow img {}
+
+
+.row2 .items .item a:hover .arrow{
+    opacity: 1;
+    right: 40px;
+}
+
+
+
+
+/* 
+.row1 {}
+.row1 .row1_inner {
+    padding: 150px 0 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.row1 .row1_inner .title {
+    max-width: 380px;
+    margin: 0 auto;
+}
+.row1 .row1_inner .title h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.row1 .row1_inner .title p {
+    color: #FFFFFF;
+    line-height: 1.5;
+} */
+
+
+
+
+
+/* 고민중인 ux */
+/* .row2 {}
+.row2 .row2_inner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.row2 .row2_inner .left {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+.row2 .row2_inner .left .category {}
+.row2 .row2_inner .left .category span {}
+.row2 .row2_inner .left .title {}
+.row2 .row2_inner .left .title h1 {}
+.row2 .row2_inner .left .text {}
+.row2 .row2_inner .left .text p {}
+.row2 .row2_inner .left .text p.days {}
+
+.row2 .row2_inner .right {
+    width: 50%;
+}
+.row2 .row2_inner .right a {}
+.row2 .row2_inner .right a img {
+    width: 100%;
+} */
+
+
+
+
+/* 
+.row2 {}
+.row2 .row2_inner {}
+.row2 .row2_inner .buttons {
+    padding-bottom: 50px;
+}
+.row2 .row2_inner .buttons .all,
+.row2 .row2_inner .buttons .btn {
+    border: none;
+    border-radius: 99px;
+    padding: 10px 25px;
+    font-size: 18px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.row2 .row2_inner .items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.row2 .row2_inner .items .item {
+    width: 32.5%;
+    position: relative;
+    border-radius: 24px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.row2 .row2_inner .items .item img {
+    width: 100%;
+    border-radius: 24px;
+}
+
+.row2 .row2_inner .items .item .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+    background-color: #00EAA1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 36px;
+}
+.row2 .row2_inner .items .item .text .top {
+    text-align: end;
+}
+.row2 .row2_inner .items .item .text .top span {
+    color: #FFFFFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.row2 .row2_inner .items .item .text .top h2 {
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+.row2 .row2_inner .items .item .text .bottom {}
+.row2 .row2_inner .items .item .text .bottom h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.row2 .row2_inner .items .item .text .bottom p {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.row2 .row2_inner .items .item:hover {
+    transform: scale(.95);
+}
+.row2 .row2_inner .items .item:nth-last-child(1):hover {
+    cursor: none;
+    transform: none;
+}
+
+.active {
+    background-color: black;
+    color: #FFFFFF;
+} */
+
+
+
+
+
+/* 
+
+#main {
+    background-color: var(--color-black);
+    padding-bottom: 30px;
+}
+.row1 {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 180px 0 0;
+}
+.row1 .row1_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.row1 .row1_inner .list.bigTitle {
+    /* border: 1px solid var(--color-white);
+    border-radius: 16px; 
+    color: var(--color-white);
+}
+.row1 .row1_inner .list.bigTitle .text {
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.row1 .row1_inner .list.bigTitle .text h1 {
+    text-transform: uppercase;
+    font-family: var(--font-enbasic);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.row1 .row1_inner .list.bigTitle .text  p {
+    text-transform: capitalize;
+    font-family: var(--font-enbasic);
+    font-size: 18px;
+}
+
+.row1 .row1_inner .list.coming {}
+.row1 .row1_inner .list.coming a {}
+.row1 .row1_inner .list.coming a .title {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.row1 .row1_inner .list {
+    width: 49%;
+    height: 430px;
+    display: inline-block;
+}
+.row1 .row1_inner .list a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.row1 .row1_inner .list a .back {
+    height: 100%;
+}
+.row1 .row1_inner .list a .back img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.row1 .row1_inner .list a .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+.row1 .row1_inner .list a .text .catg {}
+.row1 .row1_inner .list a .text .catg img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 23px;
+    margin-right: 7px;
+}
+.row1 .row1_inner .list a .text .catg p {
+    display: inline-block;
+    line-height: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.row1 .row1_inner .list a .text .title {}
+.row1 .row1_inner .list a .text .title h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: var(--font-enbasic);
+    text-transform: uppercase;
+}
+.row1 .row1_inner .list a .text .title p {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.row1 .row1_inner .list a .text .title span {
+    text-transform: capitalize;
+}
+
+.row1 .row1_inner .list a .text .btn {
+    position: absolute;
+    bottom: 50px;
+    border: 1px solid var(--color-black);
+    border-radius: 32px;
+    padding: 15px 60px;
+    transition: .3s ease-in-out;
+}
+.row1 .row1_inner .list a .text .btn p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.row1 .row1_inner .list a:hover .btn {
+    background-color: var(--color-black);
+    color: var(--color-white);
+} */
